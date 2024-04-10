@@ -3,16 +3,24 @@ namespace App\Controller;
 
 class PostsController extends AppController
 {
-    public $autoRender = false;
+    // public $autoRender = false;
+
+    public function initialize(): void
+    {
+        parent::initialize();
+        $this->viewBuilder()->setLayout('test');
+    }
 
     public function index()
     {
-        echo "Posts index";
+        $posts = $this->Posts->find('all');
+        $this->set(compact('posts'));
     }
 
     public function view($id = null)
     {
-        echo "ID:" . $id . " Posts view";
+        $post = $this->Posts->get($id);
+        $this->set(compact('post'));
     }
 
 }
