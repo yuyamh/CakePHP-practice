@@ -5,6 +5,13 @@ class PostsController extends AppController
 {
     // public $autoRender = false;
 
+    public $paginate = [
+        'limit' => 10,
+        'order' => [
+            'Posts.created' => 'desc'
+        ]
+    ];
+
     public function initialize(): void
     {
         parent::initialize();
@@ -13,7 +20,7 @@ class PostsController extends AppController
 
     public function index()
     {
-        $posts = $this->Posts->find('all');
+        $posts = $this->paginate($this->Posts->find());
         $this->set(compact('posts'));
     }
 
