@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Post $post
@@ -37,6 +38,10 @@
                 <tr>
                     <th><?= __('Published') ?></th>
                     <td><?= $post->published ? __('Yes') : __('No'); ?></td>
+                </tr>
+                <tr>
+                    <th><?= __('User') ?></th>
+                    <td><?= h($post->user->username) ?></td>
                 </tr>
             </table>
             <div class="text">

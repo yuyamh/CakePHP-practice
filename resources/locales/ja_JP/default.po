@@ -17,7 +17,7 @@ msgstr ""
 #: ./src/Controller/Admin/PostsController.php:55
 #: ./src/Controller/Admin/PostsController.php:79
 msgid "The post has been saved."
-msgstr ""
+msgstr "投稿が成功しました。"
 
 #: ./src/Controller/Admin/PostsController.php:59
 #: ./src/Controller/Admin/PostsController.php:83
@@ -63,31 +63,31 @@ msgstr ""
 #: ./templates/Admin/Users/index.php:18
 #: ./templates/Admin/Users/view.php:10
 msgid "Actions"
-msgstr ""
+msgstr "アクション"
 
 #: ./templates/Admin/Posts/add.php:11
 #: ./templates/Admin/Posts/edit.php:16
 #: ./templates/Admin/Posts/view.php:13
 msgid "List Posts"
-msgstr ""
+msgstr "投稿リスト"
 
 #: ./templates/Admin/Posts/add.php:18
 msgid "Add Post"
-msgstr ""
+msgstr "新規投稿"
 
 #: ./templates/Admin/Posts/add.php:26
 #: ./templates/Admin/Posts/edit.php:31
 #: ./templates/Admin/Users/add.php:24
 #: ./templates/Admin/Users/edit.php:29
 msgid "Submit"
-msgstr ""
+msgstr "投稿"
 
 #: ./templates/Admin/Posts/edit.php:12
 #: ./templates/Admin/Posts/index.php:33
 #: ./templates/Admin/Users/edit.php:12
 #: ./templates/Admin/Users/index.php:31
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: ./templates/Admin/Posts/edit.php:14
 #: ./templates/Admin/Posts/index.php:33
@@ -96,21 +96,21 @@ msgstr ""
 #: ./templates/Admin/Users/index.php:31
 #: ./templates/Admin/Users/view.php:12
 msgid "Are you sure you want to delete # {0}?"
-msgstr ""
+msgstr "本当に削除しますか？"
 
 #: ./templates/Admin/Posts/edit.php:23
 #: ./templates/Admin/Posts/view.php:11
 msgid "Edit Post"
-msgstr ""
+msgstr "投稿の編集"
 
 #: ./templates/Admin/Posts/index.php:8
 #: ./templates/Admin/Posts/view.php:14
 msgid "New Post"
-msgstr ""
+msgstr "投稿する"
 
 #: ./templates/Admin/Posts/index.php:9
 msgid "Posts"
-msgstr ""
+msgstr "投稿"
 
 #: ./templates/Admin/Posts/index.php:31
 #: ./templates/Admin/Users/index.php:29
@@ -125,22 +125,22 @@ msgstr "編集"
 #: ./templates/Admin/Posts/index.php:42
 #: ./templates/Admin/Users/index.php:40
 msgid "first"
-msgstr ""
+msgstr "最初"
 
 #: ./templates/Admin/Posts/index.php:43
 #: ./templates/Admin/Users/index.php:41
 msgid "previous"
-msgstr ""
+msgstr "前"
 
 #: ./templates/Admin/Posts/index.php:45
 #: ./templates/Admin/Users/index.php:43
 msgid "next"
-msgstr ""
+msgstr "次"
 
 #: ./templates/Admin/Posts/index.php:46
 #: ./templates/Admin/Users/index.php:44
 msgid "last"
-msgstr ""
+msgstr "最後"
 
 #: ./templates/Admin/Posts/index.php:48
 #: ./templates/Admin/Users/index.php:46
@@ -188,40 +188,43 @@ msgstr "概要"
 
 #: ./templates/Admin/Posts/view.php:49
 msgid "Body"
-msgstr ""
+msgstr "内容"
 
 #: ./templates/Admin/Users/add.php:11
 #: ./templates/Admin/Users/edit.php:16
 #: ./templates/Admin/Users/view.php:13
 msgid "List Users"
-msgstr ""
+msgstr "ユーザーリスト"
 
 #: ./templates/Admin/Users/add.php:18
 msgid "Add User"
-msgstr ""
+msgstr "ユーザーを追加"
 
 #: ./templates/Admin/Users/edit.php:23
 #: ./templates/Admin/Users/view.php:11
 msgid "Edit User"
-msgstr ""
+msgstr "ユーザーの編集"
 
 #: ./templates/Admin/Users/index.php:8
 #: ./templates/Admin/Users/view.php:14
 msgid "New User"
-msgstr ""
+msgstr "ユーザーの登録"
 
 #: ./templates/Admin/Users/index.php:9
 msgid "Users"
-msgstr ""
+msgstr "ユーザー"
 
 #: ./templates/Admin/Users/view.php:12
 msgid "Delete User"
-msgstr ""
+msgstr "ユーザーの削除"
 
 #: ./templates/Admin/Users/view.php:22
 msgid "Username"
-msgstr ""
+msgstr "ユーザー名"
 
 #: ./templates/layout/error.php:36
 msgid "Back"
-msgstr ""
+msgstr "戻る"
+
+msgid "User"
+msgstr "ユーザー"

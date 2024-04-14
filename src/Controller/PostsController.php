@@ -9,7 +9,8 @@ class PostsController extends AppController
         'limit' => 10,
         'order' => [
             'Posts.created' => 'desc'
-        ]
+        ],
+        'contain' => 'Users',
     ];
 
     public function initialize(): void
@@ -26,7 +27,9 @@ class PostsController extends AppController
 
     public function view($id = null)
     {
-        $post = $this->Posts->get($id);
+        $post = $this->Posts->get($id, [
+            'contain' => 'Users',
+        ]);
         $this->set(compact('post'));
     }
 
